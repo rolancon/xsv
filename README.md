@@ -2,7 +2,7 @@
 
 XSV is an intermediary text format for interchange between relation databases and spreadsheets. It is based on the [TSV](https://en.wikipedia.org/wiki/Tab-separated_values) (tab-separated values) format, with extra features like subsectioning (derived from [MIME multipart messages](https://en.wikipedia.org/wiki/MIME#Multipart_messages)), filesystem modeling, and supports [JSON](https://en.wikipedia.org/wiki/JSON)-compatible cell values.
 
-The XSV format encodes data in a tabular structure. The contents of an XSV must be UTF-8 encoded (a superset of US-ASCII). It consists of an optional header, plus zero ore more rows of data.
+The XSV format encodes data in a tabular structure in a file. An XSV file has the `.xsv` extension. The contents of an XSV file must be UTF-8 encoded (a superset of US-ASCII). It consists of an optional header, plus zero ore more rows of data.
 
 The header, which gives a name to zero or more columns, is separated from the body containing the rows of data with carriage-return plus newline characters (`\r\n`).
 
